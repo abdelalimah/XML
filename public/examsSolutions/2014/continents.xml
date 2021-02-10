@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Continents>
+    <Continent>
+        <nom>Africa</nom>
+        <pays>
+            <nom>Morocco</nom>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+        </pays>
+    </Continent>
+    <Continent>
+        <nom></nom>
+        <pays>
+            <nom></nom>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+        </pays>
+    </Continent>
+    <Continent>
+        <nom></nom>
+        <pays>
+            <nom></nom>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+        </pays>
+    </Continent>
+    <Continent>
+        <nom></nom>
+        <pays>
+            <nom></nom>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+            <population id="annee"></population>
+        </pays>
+    </Continent>
+</Continents>
