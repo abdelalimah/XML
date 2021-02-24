@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogue SYSTEM "./catalogue.dtd">
+<catalogue année="2012">
+    <produit codeP="P01" catégorie="C1">
+        <nom>PC Portable</nom>
+        <photo source="P01.jpg"></photo>
+        <prixHT>7000.00</prixHT>
+        <TVA>20.00</TVA>
+    </produit>
+    <produit codeP="P02" catégorie="C1">
+        <nom>PC Portable</nom>
+        <photo source="P01.jpg"></photo>
+        <prixHT>7000.00</prixHT>
+        <TVA>20.00</TVA>
+    </produit>
+    <produit codeP="P03" catégorie="C2">
+        <nom>PC Portable</nom>
+        <photo source="P01.jpg"></photo>
+        <prixHT>7000.00</prixHT>
+        <TVA>20.00</TVA>
+    </produit>
+   
+</catalogue>

@@ -12,4 +12,5 @@
         <fichier id="F2" nom="otherWisd" creation="2000" dateModification="2010" taille="30"></fichier>
     </dossier>
     <fichier id="F3" nom="pics" creation="2020" dateModification="2018" taille="20"></fichier>
+    <profile id="E2">blahblah</profile>
 </racine> 

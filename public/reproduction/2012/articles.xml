@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<articles xsi:noNamespaceSchemaLocation="./articles.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <article cat="C1">
+        <reference>P01</reference>
+        <intitule>PC Portable</intitule>
+        <prixTTC>8400.20</prixTTC>
+    </article>
+    <article cat="C2">
+        <reference>P01</reference>
+        <intitule>Imprimante</intitule>
+        <prixTTC>7000.20</prixTTC>
+    </article>
+</articles>

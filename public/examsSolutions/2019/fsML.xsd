@@ -8,6 +8,7 @@
             <xsd:sequence>
                 <xsd:element ref="dossier" minOccurs="1" maxOccurs="unbounded"></xsd:element>
                 <xsd:element ref="fichier" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+                <xsd:element ref="profile" minOccurs="1" maxOccurs="unbounded"></xsd:element>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
@@ -77,5 +78,14 @@
     </xsd:complexType>
 
     <!--  -->
+    <xsd:element name="profile">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:string">
+                    <xsd:attribute name="id"></xsd:attribute>
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
 
 </xsd:schema>
