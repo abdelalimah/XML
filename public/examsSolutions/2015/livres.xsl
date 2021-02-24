@@ -3,14 +3,16 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
  <xsl:template match="/">
         <html>
+            <link rel="stylesheet" href="./style.css"/>
             <body>
                 <h1 align="center">
                     Liste des Livres dans le thème est XML
                 </h1>
                 <hr />
-                <div style="">
+                <div class="frame">
 
                     <xsl:for-each select="liste/livre[theme='XML']">
+                    <div class="inner-frame">
                         <p>
                             <b>Code</b>
                             :
@@ -25,12 +27,10 @@
                             <b>Auteurs</b>
                             :
                             <xsl:for-each select="auteurs/auteur">
-                                <span>
                                     <xsl:value-of select="."></xsl:value-of>
                                     <xsl:if test="position() != last()">
                                         ,
                                     </xsl:if>
-                                </span>
                                 
                             </xsl:for-each>
                         </p>
@@ -49,10 +49,17 @@
                             :
                             <xsl:value-of select="theme"></xsl:value-of>
                         </p>
-                    <img src="{image/@source}" alt="xml" style="display: block;
-                    margin-left: auto;
-                    margin-right: 0;
-                    width: 10%;"/>
+                    </div>
+                            <img src="{image/@source}" class="image" alt="xml"></img>
+                            <div class="resume-frame">
+                                <xsl:for-each select="resumes/resume">
+                                <p>
+                                    <xsl:value-of select=".">
+                                        
+                                    </xsl:value-of>
+                                </p>
+                            </xsl:for-each>
+                            </div>
                     </xsl:for-each>
                 </div>
             </body>
